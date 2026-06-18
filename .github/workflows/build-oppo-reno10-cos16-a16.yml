@@ -12,8 +12,8 @@ env:
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
   EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1"
 
-  KERNEL_SOURCE : "https://github.com/miaizhe/Kernel_oppo_sm7325_Reno10.git"
-  KERNEL_BRANCH : "ReSukiSU"
+  KERNEL_SOURCE : "https://github.com/oppo-source/android_kernel_oppo_sm7325.git"
+  KERNEL_BRANCH : "oppo/sm7325_v_15.0.0_reno10"
 
   DT_URL : "https://github.com/oppo-source/android_kernel_modules_and_devicetree_oppo_sm7325.git"
   DT_BRANCH : "oppo/sm7325_v_15.0.0_reno10"

@@ -323,3 +323,7 @@ runs:
                 echo "CONFIG_KSU_SUSFS=y" >> ./arch/${{ env.KERNEL_ARCH }}/configs/${{ env.DEFCONFIG_NAME }}
             fi
           fi
+      - name: Check Device Tree
+        shell: bash
+        run: |
+          ./tmp/Bin/check_ln.sh

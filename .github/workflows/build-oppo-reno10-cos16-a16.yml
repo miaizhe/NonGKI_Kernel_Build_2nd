@@ -15,6 +15,9 @@ env:
   KERNEL_SOURCE : "https://github.com/miaizhe/Kernel_oppo_sm7325_Reno10.git"
   KERNEL_BRANCH : "ReSukiSU"
 
+  DT_URL : "https://github.com/oppo-source/android_kernel_modules_and_devicetree_oppo_sm7325.git"
+  DT_BRANCH : "oppo/sm7325_v_15.0.0_reno10"
+
   CLANG_SOURCE : "https://github.com/Rancemxn/android_kernel_oppo_sm7325/releases/download/BuildTool/linux-x86-refs_heads_llvm-r383902b-clang-r383902.tar.gz"
   CLANG_BRANCH : ""
 

@@ -326,4 +326,4 @@ runs:
       - name: Check Device Tree
         shell: bash
         run: |
-          ./tmp/Bin/check_ln.sh
+          bash /tmp/Bin/check_ln.sh
